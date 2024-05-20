@@ -15,13 +15,13 @@ This project implements an interactive web application for a chatbot capable of 
 The chatbot models were fine-tuned on custom datasets specifically in Question-Answer format to better understand and generate relevant responses for given context.
 
 ### English Model
-Model: Fine-tuned OpenAI GPT-2
-Dataset: The English model was trained on a dataset comprising academic questions and answers, specific to the subjects and areas of expertise at OSTIM Technical University.
-Training Process: The fine-tuning process involved supervised learning where the pre-trained GPT-2 model was further trained on the curated dataset and many different configurations to improve its contextual understanding and response accuracy.
+**Model**: Fine-tuned OpenAI GPT-2
+**Dataset**: The English model was trained on a dataset comprising academic questions and answers, specific to the subjects and areas of expertise at OSTIM Technical University.
+**Training Process**: The fine-tuning process involved supervised learning where the pre-trained GPT-2 model was further trained on the curated dataset and many different configurations to improve its contextual understanding and response accuracy.
 ### Turkish Model
-Model: Fine-tuned ytu-ce-cosmos Turkish GPT-2
-Dataset: The Turkish model was trained on a dataset containing similar academic questions and answers but translated and adapted to Turkish language contexts. The complex layers and weights of the turkish model had its effect on response accuracy and contextual understanding!
-Training Process: Similar to the English model, the Turkish model was fine-tuned using supervised learning techniques and different configurations to fit best the model's weights and complex layers to enhance its performance in generating contextually appropriate responses in Turkish.
+**Model**: Fine-tuned ytu-ce-cosmos Turkish GPT-2
+**Dataset**: The Turkish model was trained on a dataset containing similar academic questions and answers but translated and adapted to Turkish language contexts. The complex layers and weights of the turkish model had its effect on response accuracy and contextual understanding!
+**Training Process**: Similar to the English model, the Turkish model was fine-tuned using supervised learning techniques and different configurations to fit best the model's weights and complex layers to enhance its performance in generating contextually appropriate responses in Turkish.
 
 ## Files Overview
 
@@ -52,13 +52,13 @@ Bu proje, OSTİM Teknik Üniversitesi'nin özel verilerine göre özel olarak ta
 Sohbet robotu modelleri, verilen bağlam için ilgili yanıtlar üretebilmek için Soru-Cevap formatında özelleştirilmiş veri setleri üzerinde ayarlandı.
 
 ### İngilizce Model
-Model: Ayarlanmış OpenAI/gpt2
-Veri Seti: İngilizce model, OSTİM Teknik Üniversitesi'nin konularına ve uzmanlık alanlarına özgü akademik soruları ve yanıtları içeren bir veri setinde eğitildi.
-Eğitim Süreci: Ayarlama süreci, önceden eğitilmiş GPT-2 modelinin küratörlü veri setinde daha fazla eğitildiği denetimli öğrenme içermektedir ve bağlamsal anlayışını ve yanıt doğruluğunu artırmak için birçok farklı konfigürasyonla ayarlanmıştır.
+**Model**: Ayarlanmış OpenAI/gpt2
+**Veri Seti**: İngilizce model, OSTİM Teknik Üniversitesi'nin konularına ve uzmanlık alanlarına özgü akademik soruları ve yanıtları içeren bir veri setinde eğitildi.
+**Eğitim Süreci**: Ayarlama süreci, önceden eğitilmiş GPT-2 modelinin küratörlü veri setinde daha fazla eğitildiği denetimli öğrenme içermektedir ve bağlamsal anlayışını ve yanıt doğruluğunu artırmak için birçok farklı konfigürasyonla ayarlanmıştır.
 ### Türkçe Model
-Model: Ayarlanmış ytu-ce-cosmos/turkish-gpt2
-Veri Seti: Türkçe model, benzer akademik soruları ve yanıtları içeren ancak Türkçe dil bağlamlarına çevrilmiş ve uyarlanmış bir veri setinde eğitildi. Türkçe modelin karmaşık katmanları ve ağırlıkları, yanıt doğruluğu ve bağlamsal anlayış üzerinde etkili oldu!
-Eğitim Süreci: İngilizce model gibi, Türkçe model de denetimli öğrenme tekniklerini ve farklı konfigürasyonları kullanarak, modelin ağırlıklarını ve karmaşık katmanlarını en iyi şekilde uyum sağlaması ve Türkçe'de bağlamsal olarak uygun yanıtlar üretme performansını artırmak için ayarlandı.
+**Model**: Ayarlanmış ytu-ce-cosmos/turkish-gpt2
+**Veri Seti**: Türkçe model, benzer akademik soruları ve yanıtları içeren ancak Türkçe dil bağlamlarına çevrilmiş ve uyarlanmış bir veri setinde eğitildi. Türkçe modelin karmaşık katmanları ve ağırlıkları, yanıt doğruluğu ve bağlamsal anlayış üzerinde etkili oldu!
+**Eğitim Süreci**: İngilizce model gibi, Türkçe model de denetimli öğrenme tekniklerini ve farklı konfigürasyonları kullanarak, modelin ağırlıklarını ve karmaşık katmanlarını en iyi şekilde uyum sağlaması ve Türkçe'de bağlamsal olarak uygun yanıtlar üretme performansını artırmak için ayarlandı.
 
 ## İlgili Dosyalar
 
