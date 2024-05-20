@@ -1,1 +1,0 @@
-This is gpt2 english fine-tuned model
