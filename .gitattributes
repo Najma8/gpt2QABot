@@ -1,0 +1,6 @@
+model_en/*.json filter=lfs diff=lfs merge=lfs -text
+model_en/*.safetensors filter=lfs diff=lfs merge=lfs -text
+model_en/*.bin filter=lfs diff=lfs merge=lfs -text
+model_tr/*.json filter=lfs diff=lfs merge=lfs -text
+model_tr/*.safetensors filter=lfs diff=lfs merge=lfs -text
+model_tr/*.bin filter=lfs diff=lfs merge=lfs -text
