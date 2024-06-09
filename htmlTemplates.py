@@ -1,6 +1,5 @@
 css = '''
 <style>
-/* General chat message styling */
 .chat-message {
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -23,7 +22,7 @@ css = '''
 
 /* Avatar styling */
 .chat-message .avatar {
-    width: 15%; /* Adjusted for better scaling on mobile */
+    width: 15%;
 }
 
 /* Avatar image styling */
@@ -36,7 +35,7 @@ css = '''
 
 /* Message text styling */
 .chat-message .message {
-    width: 85%; /* Adjusted for better scaling on mobile */
+    width: 85%; /* telefon icin 85 yoksa 90 felan */
     padding: 0 1.5rem;
     color: #fff;
 }
@@ -51,7 +50,6 @@ css = '''
     text-align: right;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .chat-message {
         flex-direction: column;
@@ -69,16 +67,16 @@ css = '''
     }
     
     .chat-message .avatar {
-        width: 20%; /* Adjust width for mobile */
+        width: 20%;
     }
 
     .chat-message .message {
-        width: 100%; /* Full width for message text */
-        padding: 0.5rem; /* Reduced padding for smaller screens */
+        width: 100%;
+        padding: 0.5rem;
     }
 
     .chat-message .avatar img {
-        max-width: 50px; /* Consistent avatar image size */
+        max-width: 50px;
         max-height: 50px;
     }
 }
