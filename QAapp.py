@@ -16,7 +16,7 @@ if "lang" not in st.session_state:
 
 if st.session_state.lang is None:
     st.header("OSTIM Question-Answering ChatBot :robot_face:")
-    st.write("Made By: NAJMA DABIRY - 200205909")
+    st.write("Made By: NAJMA DABIRY")
     lang = st.selectbox("Please Select a Language", ("", "en", "tr"), index=0)
     print(lang)
     if lang:
@@ -30,13 +30,13 @@ processing_text = ""
 if st.session_state.lang:
     if st.session_state.lang == 'en':
         st.header("OSTIM Question-Answering ChatBot :robot_face:")
-        st.write("Made By: NAJMA DABIRY - 200205909")
+        st.write("Made By: NAJMA DABIRY")
         text_lang = "Please Write Your Question:"
         no_answer_text = "I'm sorry, I don't have an answer for that question at the moment."
         processing_text = "Processing..."
     elif st.session_state.lang == 'tr':
         st.header("OSTİM Soru-Cevaplama ChatBot'u :robot_face:")
-        st.write("NAJMA DABIRY Tarafından Yapılmıştır - 200205909")
+        st.write("NAJMA DABIRY Tarafından Yapılmıştır")
         text_lang = "Lütfen Soracağınız Soruyu Yazınız:"
         no_answer_text = "Üzgünüm, şu anda bu soruya verecek bir cevabım yok."
         processing_text = "İşleniyor..."
